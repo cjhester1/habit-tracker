@@ -1,6 +1,6 @@
 ### 📊 Habit Tracker Application using Pixela API
 
-tool that leverages the Pixela API to help users create, manage, and visualize their daily habits and goals. With this application, users can seamlessly track their progress, view their performance over time, and stay motivated to achieve their objectives.
+Leverages the Pixela API to help users create, manage, and visualize their daily habits and goals. With this application, users can seamlessly track their progress, view their performance over time, and stay motivated to achieve their objectives.
 
 #### ⭐ Key Features:
 
