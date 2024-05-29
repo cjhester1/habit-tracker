@@ -53,10 +53,11 @@ today = datetime.now()
 #pixel params for adding data to graph (represents each time we complete a habit)
 graph_pixel_config = {
     "date": today.strftime("%Y%m%d"),
-    "quantity": "5",
-    "optionalData": "{\"book\":\"Proverbs\"}"
+    "quantity": "8",
+    "optionalData": "{\"book\":\"Psalms\"}"
 }
 
 #posting data to graph
-#response = requests.post(url=graph_pixel_endpoint, json=graph_pixel_config, headers=headers)
+response = requests.post(url=graph_pixel_endpoint, json=graph_pixel_config, headers=headers)
+#print(response.json())
 
